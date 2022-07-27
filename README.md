@@ -14,13 +14,17 @@ We are using python virtual environments ([venv]) to simply the development of t
 source .venv/bin/activate
 ```
 #### Windows
+If there are UnauthorizedAccess issue, please do the next command
+```bash
+Set-ExecutionPolicy Unrestricted -Scope Process
+```
 ##### _Cmd.exe_
 ```bash
-source .venv\Scripts\activate.bat
+.\.venv\bin\Activate.bat
 ```
 ##### _Powershell_
 ```bash
-source .venv\Scripts\Activate.ps1
+.\.venv\bin\Activate.ps1
 ```
 
 [Python]: <https://www.python.org/>
